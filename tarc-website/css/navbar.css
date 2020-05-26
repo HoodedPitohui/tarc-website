@@ -1,0 +1,26 @@
+/*Sets the overall color of the navbar, handles overall values*/
+ul.nav {
+  margin: 0;
+  list-style: none;
+  background-color: #901414;
+  height: 3.75em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+li.nav {
+  display: inline;
+}
+/*Handles the text around the navbar*/
+a.nav  {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  vertical-align: middle;
+  padding: 1.250em;
+  text-align: center;
+}
+a.nav:hover {
+  color: white;
+}

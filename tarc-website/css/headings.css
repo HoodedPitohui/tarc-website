@@ -1,0 +1,10 @@
+h1.title  {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3em;
+}
+h3.subtitle {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 250;
+}

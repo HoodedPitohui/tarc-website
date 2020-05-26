@@ -11,3 +11,29 @@
   background: transparent;
   font-family: 'Poppins', sans-serif;
 }
+div.section2-images {
+  text-align: center;
+  color: black;
+  width: 25em;
+}
+/*div.section2-images p {
+  padding-bottom: 60px;
+}*/
+div.section2-general  {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+footer  {
+  background-color: #901414;
+}
+footer  p   {
+  color: white;
+  text-align: center;
+}
+footer p.top  {
+  padding-top: 0.5em;
+}
+footer p.bottom {
+  padding-bottom: 0.5em;
+}
