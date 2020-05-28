@@ -15,15 +15,17 @@ div.section2-images {
   text-align: center;
   color: black;
   width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+div.section2-general  {
+  justify-content: center;
+  text-align: center;
 }
 /*div.section2-images p {
   padding-bottom: 60px;
 }*/
-div.section2-general  {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
 footer  {
   background-color: #901414;
 }

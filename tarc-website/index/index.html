@@ -8,11 +8,13 @@
     <link rel = "stylesheet" href = "../css/section.css"/>
     <link rel = "stylesheet" href = "../css/headings.css"/>
     <link rel = "stylesheet" href = "../css/forms.css"/>
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:320px)" href="../css/mobile.css"/>
+    <!--Best way to build media queries is set the base case for mobile, then move up-->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/computer.css"/>
 		<link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="../css/tablet.css"/>
-    <!--Some fun javascript-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Javascript code-->
     <script src = "../javascript/forms.js"></script>
-    <script src = "../javascript/scrolling.js"></script>
+    <script src = "../javascript/scrolling.js"></script><!--This does not work for some reason-->
   </head>
   <body>
     <!--Navbar Structure-->
@@ -46,24 +48,30 @@
       <h3 class = "subtitle">Phoenix Rocketry hopes to promote the growth of rocketry in the Pacific
       Northwest by supporting, promoting, and initiating activities such as summer camps,
       participating in The American Rocketry Challenge, and working with the National Association
-      of Rocketry</h3>
+      of Rocketry.</h3>
     </section>
     <!--Section 2-->
     <section id = "about">
-      <!--People pictures + descriptors-->
+      <!--People pictures + names + titles + descriptors-->
       <h1 class = "title">Our Team</h1>
       <div class = "section2-general">
         <div class = "section2-images">
           <img src = ".jpg"/>
-          <p>Lorem Ipsum</p>
+          <h3 class = "sub-name">Person Name</h3>
+          <h4>Title</h4>
+          <p>Description</p>
         </div>
         <div class = "section2-images">
           <img src = ".jpg"/>
-          <p>Lorem Ipsum</p>
+          <h3 class = "sub-name">Person Name</h3>
+          <h4>Title</h4>
+          <p>Description</p>
         </div>
         <div class = "section2-images">
           <img src = ".jpg"/>
-          <p>Lorem Ipsum</p>
+          <h3 class = "sub-name">Person Name</h3>
+          <h4>Title</h4>
+          <p>Description</p>
         </div>
       </div>
       <br/>
@@ -71,15 +79,21 @@
       <div class = "section2-general">
         <div class = "section2-images">
           <img src = ".jpg"/>
-          <p>Lorem Ipsum</p>
+          <h3 class = "sub-name">Person Name</h3>
+          <h4>Title</h4>
+          <p>Description</p>
         </div>
         <div class = "section2-images">
           <img src = ".jpg"/>
-          <p>Lorem Ipsum</p>
+          <h3 class = "sub-name">Person Name</h3>
+          <h4>Title</h4>
+          <p>Description</p>
         </div>
         <div class = "section2-images">
           <img src = ".jpg"/>
-          <p>Lorem Ipsum</p>
+          <h3 class = "sub-name">Person Name</h3>
+          <h4>Title</h4>
+          <p>Description</p>
         </div>
       </div>
     </section>
@@ -88,8 +102,8 @@
       <h1 class = "title">Our Projects</h1>
       <!--2018 rocket display + picture-->
       <!--Team picture + rocket-->
-      <h3 class = "subtitle">Our Past Rockets</h3>
-      <img class = "centralized" src = ".png"/>
+      <h3 class = "subtitle">2018-2019</h3>
+      <img class = "centralized" src = "../images/rocket-2018-2019.png"/>
     </section>
     <!--Section 4-->
     <section id = "contact">
@@ -103,7 +117,6 @@
           <input class = "standard" type = "text" id = "lname"><br/>
           <label for= "email">Email:</label><br/>
           <input class = "standard" type = "text" id = "email"><br/>
-          <br/>
           <label for = "comments">Comments:</label><br/>
           <textarea id = "comments" name="comment" form = "contact-form" rows="8">
           </textarea>

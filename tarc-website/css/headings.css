@@ -8,3 +8,14 @@ h3.subtitle {
   font-size: 1.5em;
   font-weight: 250;
 }
+h3.sub-name {
+  font-size: 1.5em;
+  font-weight: 250;
+}
+h4 {
+  font-size: 1.25em;
+  font-weight: 200;
+}
+h4.rocket-names {
+  text-align: center;
+}

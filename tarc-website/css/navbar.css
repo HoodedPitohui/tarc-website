@@ -3,24 +3,21 @@ ul.nav {
   margin: 0;
   list-style: none;
   background-color: #901414;
-  height: 3.75em;
   text-align: center;
-  position: fixed;
   width: 100%;
+
 }
 li.nav {
-  display: inline;
+  border: 0.125em solid black;
 }
 /*Handles the text around the navbar*/
 a.nav  {
-  display: inline-block;
   text-decoration: none;
   color: white;
-  font-size: 1em;
   vertical-align: middle;
-  padding: 1.250em;
-  text-align: center;
+  padding: 0;
 }
 a.nav:hover {
-  color: white;
+  transition: all 0.5s ease-in-out;
+  font-weight: 800;
 }
