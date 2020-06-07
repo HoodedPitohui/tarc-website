@@ -2,6 +2,9 @@
   <head>
     <title>Home</title>
     <!--CSS Links-->
+    <!--Icon Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Own CSS-->
     <link rel = "stylesheet" href = "../css/general.css"/>
     <link rel = "stylesheet" href = "../css/navbar.css"/>
     <link rel = "stylesheet" href = "../css/images.css"/>
@@ -10,33 +13,28 @@
     <link rel = "stylesheet" href = "../css/forms.css"/>
     <!--Best way to build media queries is set the base case for mobile, then move up-->
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/computer.css"/>
-		<link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="../css/tablet.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="../css/computer-large.css"/>
+		<!--<link rel="stylesheet" type="text/css" media="only screen and (max-width:600px)" href="../css/tablet.css"/>-->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--Javascript code-->
     <script src = "../javascript/forms.js"></script>
     <script src = "../javascript/scrolling.js"></script><!--This does not work for some reason-->
+    <script src = "../javascript/navbar.js"></script>
   </head>
   <body>
     <!--Navbar Structure-->
     <!--Links to different parts of the page (#s)-->
     <section id = "home">
-      <ul class = "nav">
-        <li class = "nav">
-          <a class = "nav" href = "#home">Home</a>
-        </li>
-        <li class = "nav">
-          <a class = "nav" href = "#mission">Our Mission</a>
-        </li>
-        <li class = "nav">
-          <a class = "nav" href = "#about">Our Team</a>
-        </li>
-        <li class = "nav">
-          <a class = "nav" href = "#projects">Our Projects</a>
-        </li>
-        <li class = "nav">
-          <a class = "nav" href = "#contact">Contact Us</a>
-        </li>
-      </ul>
+      <div class="topnav" id="myTopnav">
+        <a id = "first-navbar" href="#home" class="active">Home</a>
+        <a href="#news">Mission</a>
+        <a href="#contact">Team</a>
+        <a href="#about">Projects</a>
+        <a href="#about">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </section>
     <!--Section 1-->
     <br/>
@@ -56,20 +54,20 @@
       <h1 class = "title">Our Team</h1>
       <div class = "section2-general">
         <div class = "section2-images">
-          <img src = ".jpg"/>
-          <h3 class = "sub-name">Person Name</h3>
+          <img src = "../images/karthik.jpg"/>
+          <h3 class = "sub-name">Karthik Shaji</h3>
           <h4>Title</h4>
           <p>Description</p>
         </div>
         <div class = "section2-images">
-          <img src = ".jpg"/>
-          <h3 class = "sub-name">Person Name</h3>
+          <img src = "../images/josh.jpg"/>
+          <h3 class = "sub-name">Joshua Wentzien</h3>
           <h4>Title</h4>
           <p>Description</p>
         </div>
         <div class = "section2-images">
-          <img src = ".jpg"/>
-          <h3 class = "sub-name">Person Name</h3>
+          <img src = "../images/andrey.jpg"/>
+          <h3 class = "sub-name">Andrey Piterkin</h3>
           <h4>Title</h4>
           <p>Description</p>
         </div>
@@ -78,20 +76,14 @@
       <br/>
       <div class = "section2-general">
         <div class = "section2-images">
-          <img src = ".jpg"/>
-          <h3 class = "sub-name">Person Name</h3>
+          <img src = "../images/pranav.jpg"/>
+          <h3 class = "sub-name">Pranav Gopalkrishnan</h3>
           <h4>Title</h4>
           <p>Description</p>
         </div>
         <div class = "section2-images">
-          <img src = ".jpg"/>
-          <h3 class = "sub-name">Person Name</h3>
-          <h4>Title</h4>
-          <p>Description</p>
-        </div>
-        <div class = "section2-images">
-          <img src = ".jpg"/>
-          <h3 class = "sub-name">Person Name</h3>
+          <img src = "../images/marko.jpg"/>
+          <h3 class = "sub-name">Marko Morrison </h3>
           <h4>Title</h4>
           <p>Description</p>
         </div>
@@ -104,6 +96,25 @@
       <!--Team picture + rocket-->
       <h3 class = "subtitle">2018-2019</h3>
       <img class = "centralized" src = "../images/rocket-2018-2019.png"/>
+      <br/>
+      <div class = "section2-general">
+        <div class = "section3-images">
+          <img src = "../images/first-launch.jpg"/>
+        </div>
+        <div class = "section3-images">
+          <img src = "../images/nats.png"/>
+        </div>
+        <div class = "section3-images">
+          <img src = "../images/original-team.jpg"/>
+        </div>
+        <div class = "section3-images">
+          <img src = "../images/rahan.jpg"/>
+        </div>
+        <div class = "section3-images">
+          <img src = "../images/presentation-award.png"/>
+        </div>
+      </div>
+      <br/>
     </section>
     <!--Section 4-->
     <section id = "contact">

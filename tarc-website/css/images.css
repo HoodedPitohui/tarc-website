@@ -4,3 +4,13 @@ img.centralized  {
   margin-right: auto;
   width: 60%;
 }
+.image-band {
+   margin-left: 0.5em;
+   margin-right: 0.5em;
+}
+.image-band img  {
+   margin-left: 0.125em;
+   margin-right:0.125em;
+   float: left;
+   display: inline-block;
+}

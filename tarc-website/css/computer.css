@@ -1,22 +1,8 @@
 /*Nav elements to change*/
-ul.nav  {
-  position: fixed;
-  height: 3.75em;
-}
-li.nav  {
-  display: inline;
-  border: 0em;
-}
-a.nav {
-  display: inline-block;
-  font-size: 1em;
-  padding: 1.250em;
-  text-align: center;
-}
+/*Flexbox attributes*/
 html  {
   scroll-behavior: smooth;
 }
-/*Flexbox attributes*/
 div.section2-general  {
   display: flex;
   justify-content: center;

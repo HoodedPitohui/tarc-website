@@ -18,6 +18,16 @@ div.section2-images {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  text-align: center;
+}
+div.section3-images {
+  text-align: center;
+  color: black;
+  width: 12.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
 }
 div.section2-general  {
   justify-content: center;
@@ -27,7 +37,7 @@ div.section2-general  {
   padding-bottom: 60px;
 }*/
 footer  {
-  background-color: #901414;
+  background-color: #3D9BB9;
 }
 footer  p   {
   color: white;
