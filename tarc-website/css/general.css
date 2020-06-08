@@ -14,24 +14,33 @@
 div.section2-images {
   text-align: center;
   color: black;
-  width: 25em;
+  width: 18em;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
 }
+
 div.section3-images {
   text-align: center;
   color: black;
-  width: 12.5em;
+  width: 18em;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
+}
+div.section3-images img {
+   max-width: 200%;
 }
 div.section2-general  {
   justify-content: center;
   text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.section2-general img {
+   max-width: 100%;   
 }
 /*div.section2-images p {
   padding-bottom: 60px;
@@ -48,4 +57,19 @@ footer p.top  {
 }
 footer p.bottom {
   padding-bottom: 0.5em;
+}
+button.swap-button-left, button.swap-button-right {
+   height: 8em;
+   width: 2em;
+   color: white;
+   background-color: black;
+}
+.button-wrapper {
+  text-align: center;
+  color: black;
+  width: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
 }

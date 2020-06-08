@@ -20,6 +20,7 @@
     <script src = "../javascript/forms.js"></script>
     <script src = "../javascript/scrolling.js"></script><!--This does not work for some reason-->
     <script src = "../javascript/navbar.js"></script>
+    <script src = "../javascript/swap-images.js"></script>
   </head>
   <body>
     <!--Navbar Structure-->
@@ -98,27 +99,24 @@
       <img class = "centralized" src = "../images/rocket-2018-2019.png"/>
       <br/>
       <div class = "section2-general">
-        <div class = "section3-images">
-          <img src = "../images/first-launch.jpg"/>
+        <div class = "button-wrapper">
+          <button type = "button" class = "swap-button-left" onclick = "swapImageLeft()"><<button>
         </div>
         <div class = "section3-images">
-          <img src = "../images/nats.png"/>
+          <img id = "swap" src = "../images/first-launch.jpg"/>
         </div>
-        <div class = "section3-images">
-          <img src = "../images/original-team.jpg"/>
-        </div>
-        <div class = "section3-images">
-          <img src = "../images/rahan.jpg"/>
-        </div>
-        <div class = "section3-images">
-          <img src = "../images/presentation-award.png"/>
+        <div class = "button-wrapper">
+          <button onclick = "swapImageRight()"type = "button" class = "swap-button-right">></button>
         </div>
       </div>
       <br/>
     </section>
     <!--Section 4-->
-    <section id = "contact">
+    <section>
+      <br/>
+      <br/>
       <h1 class = "title">Contact Us</h1>
+      <br/>
       <!--Form-->
       <form id = "contact-form">
         <div class = "data">
