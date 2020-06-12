@@ -1,6 +1,5 @@
 input.standard {
   width: 90%;
-  text-align: center;
   border-bottom: 0.2em solid black;
 }
 form  {
@@ -12,7 +11,7 @@ textarea  {
   width: 90%;
 }
 .form-buttons {
-  background-color: #3D9BB9;
+  background-color: #27748C;
   color: white;
   padding-top: 1em;
   padding-left: 1.5em;
@@ -20,6 +19,6 @@ textarea  {
   padding-right: 1.5em;
 }
 .form-buttons:hover {
-   background-color: #61C6FF;
+   background-color: #3D9BB9;
    color: black;
 }

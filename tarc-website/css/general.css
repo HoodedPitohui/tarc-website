@@ -11,7 +11,7 @@
   background: transparent;
   font-family: 'Poppins', sans-serif;
 }
-div.section2-images {
+.flexbox-standard1 {
   text-align: center;
   color: black;
   width: 18em;
@@ -21,7 +21,7 @@ div.section2-images {
   text-align: center;
 }
 
-div.section3-images {
+.flexbox-standard2 {
   text-align: center;
   color: black;
   width: 18em;
@@ -29,24 +29,25 @@ div.section3-images {
   margin-right: auto;
   display: block;
   text-align: center;
+  background-color: blue;
 }
-div.section3-images img {
-   max-width: 200%;
+.flexbox-standard2 img {
+   width: 20em;
 }
-div.section2-general  {
+.flexbox-wrapper1  {
   justify-content: center;
   text-align: center;
   margin-left: 2em;
   margin-right: 2em;
 }
-.section2-general img {
-   max-width: 100%;   
+.flexbox-wrapper1 img {
+   max-width: 100%;
 }
 /*div.section2-images p {
   padding-bottom: 60px;
 }*/
 footer  {
-  background-color: #3D9BB9;
+  background-color: #27748C;
 }
 footer  p   {
   color: white;
@@ -68,8 +69,13 @@ button.swap-button-left, button.swap-button-right {
   text-align: center;
   color: black;
   width: 4em;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
   text-align: center;
+  background-color: blue;
+}
+button.swap-button-left {
+  margin-left: 25em;
+}
+button.swap-button-right {
+  margin-right: 25em;
 }

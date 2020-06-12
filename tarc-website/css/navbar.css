@@ -7,7 +7,7 @@
 }*/
 /* Style the navigation menu */
 .topnav {
-  background-color: #3D9BB9;
+  background-color: #27748C;
   overflow: hidden;
 }
 
@@ -24,15 +24,15 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #61C6FF;
+  background-color: #3D9BB9;
   color: black;
 }
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: black;
-  color: white;
+.topnav img {
+   max-height: 55px;
+   float: left;
+   display: block;
 }
+/* Add an active class to highlight the current page */
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {

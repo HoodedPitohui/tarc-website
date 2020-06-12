@@ -3,7 +3,7 @@
 html  {
   scroll-behavior: smooth;
 }
-div.section2-general  {
+.flexbox-wrapper1  {
   display: flex;
   justify-content: center;
   flex-direction: row;
