@@ -79,3 +79,11 @@ button.swap-button-left {
 button.swap-button-right {
   margin-right: 25em;
 }
+footer:before, footer:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+footer:after {
+  clear: both;
+}

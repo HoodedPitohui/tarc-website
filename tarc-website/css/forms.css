@@ -11,7 +11,7 @@ textarea  {
   width: 90%;
 }
 .form-buttons {
-  background-color: #27748C;
+  background-color: #27748C;  
   color: white;
   padding-top: 1em;
   padding-left: 1.5em;
@@ -19,6 +19,6 @@ textarea  {
   padding-right: 1.5em;
 }
 .form-buttons:hover {
-   background-color: #3D9BB9;
+   opacity: 0.8;
    color: black;
 }
