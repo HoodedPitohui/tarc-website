@@ -11,6 +11,13 @@
   background: transparent;
   font-family: 'Poppins', sans-serif;
 }
+:root {
+  --main-bg: #EAE7DC;
+  --bg-accent: #D8C3A5;
+  --accent: #8E8D8A;
+  --main-accent: #E98074;
+  --accent-main-shade: #E85A4F;
+}
 .flexbox-standard1 {
   text-align: center;
   color: black;
@@ -86,4 +93,7 @@ footer:before, footer:after {
 }
 footer:after {
   clear: both;
+}
+body {
+  background-color: #EAE7DC;
 }
