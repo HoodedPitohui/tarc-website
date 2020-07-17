@@ -44,8 +44,21 @@
 .flexbox-wrapper1  {
   justify-content: center;
   text-align: center;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.flexbox-wrapper2  {
+  justify-content: center;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.flexbox-2col-left {
+  width: 66%;
+  display: block;
+}
+.flexbox-2col-right {
+  width: 33%;
+  display: block;
 }
 .flexbox-wrapper1 img {
    max-width: 100%;
@@ -96,4 +109,15 @@ footer:after {
 }
 body {
   background-color: #EAE7DC;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

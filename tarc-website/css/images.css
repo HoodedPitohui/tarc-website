@@ -14,8 +14,7 @@ img.centralized  {
    float: left;
    display: inline-block;
 }
-}
-.container2 .bg, .container2 .bg2 {
+.container2 .bg {
    position: absolute;
    z-index: -1;
    top: 0;
@@ -27,10 +26,16 @@ img.centralized  {
    height: 100%;
 }
 .container2 .bg {
-   background-image: url('../images/banner.jpg');
+   background-image: url('../images/banner-image.jpg');
    background-size: cover;
+   width: 100%;
 }
 .container2 {
    z-index: 5;
    position: relative;
+   height: 714px;
+}
+img.all-us {
+  width: 100%;
+  opacity: 0.3;
 }
