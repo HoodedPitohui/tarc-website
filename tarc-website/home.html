@@ -175,21 +175,21 @@
       <h1 class = "title">Contact Us</h1>
       <br/>
       <!--Form-->
-      <form id = "contact-form">
+      <form id = "contact-form" action="/contact" method = "post" role="form">
         <div class = "data">
           <label for = "fname">First name:</label><br/>
-          <input class = "standard" type = "text" id = "fname"><br/>
+          <input class = "standard" name="fname" type = "text" id = "fname"><br/>
           <label for = "lname">Last name:</label><br/>
-          <input class = "standard" type = "text" id = "lname"><br/>
+          <input class = "standard" name="lname" type = "text" id = "lname"><br/>
           <label for= "email">Email:</label><br/>
-          <input class = "standard" type = "text" id = "email"><br/>
+          <input class = "standard" name="email" type = "text" id = "email"><br/>
           <label for = "comments">Comments:</label><br/>
-          <textarea id = "comments" name="comment" form = "contact-form" rows="8">
+          <textarea id = "comments" name="message" form = "contact-form" rows="8">
           </textarea>
           <br/>
         </div>
         <div class = "button">
-          <input class = "form-buttons" type = "button" id = "subscribe" value = "Send"/>
+          <input class = "form-buttons" type="submit" id = "subscribe" value = "Submit"/>
           <input class = "form-buttons" type = "button" id = "reset" value = "Reset"/>
         </div>
       </form>
@@ -211,5 +211,5 @@
       <p class = "top">Phoenix Rocketry Organization is a 501(c)(3) nonprofit organization</p>
       <p class = "bottom">Copyright &copy; 2020 Phoenix Rocketry Organization. All Rights Reserved</p>
     </footer>
-  </body>
+ </body>
 </html>
