@@ -7,6 +7,7 @@ var validate = function()
   var last = $("lname").value;
   var email = $("email").value;
   var comments = $("comments").value;
+  var subject = $("subject").value;
   var errors = "";
 
   if ( first == "" )
@@ -15,6 +16,8 @@ var validate = function()
     errors += "You must enter a last name \n";
   if ( email == "" )
     errors += "You must enter an email address \n";
+  if (subject = "" )
+    errors += "You must enter a subject \n";
   if ( comments = "")
     errors += "You have not entered a comment \n";
   /*Something is funky about the comments button*/
@@ -28,6 +31,7 @@ var reset = function()
   $("fname").value = "";
   $("lname").value = "";
   $("email").value = "";
+  $("subject").value = "";
   $("comments").value = "";
 }
 window.onload = function()
