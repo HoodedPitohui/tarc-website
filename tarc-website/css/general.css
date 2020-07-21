@@ -67,7 +67,7 @@
   padding-bottom: 60px;
 }*/
 footer  {
-  background-color: #27748C;
+  background-color: #24305E;
 }
 footer  p   {
   color: white;
@@ -106,9 +106,6 @@ footer:before, footer:after {
 }
 footer:after {
   clear: both;
-}
-body {
-  background-color: #EAE7DC;
 }
 .container {
   position: relative;
