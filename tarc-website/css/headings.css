@@ -1,7 +1,7 @@
 h1  {
   font-weight: 500;
   font-size: 3em;
-  color: #E85A4F;
+  color: var(--header-color);
 }
 h1.title, h3.subtitle {
   text-align: center;

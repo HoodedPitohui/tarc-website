@@ -1,6 +1,21 @@
 section.mission1, section.pictures, section.team, section.alumni {
-  background-color: #A8D0E6;
+  background-color: var(--section-type1);
 }
 section.project, section.cont {
-  background-color: #374785;
+  background-color: var(--section-type2);
+}
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+section.mission1 {
+  text-align: center;
+}
+section.slideshow {
+  width: 90%;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
 }

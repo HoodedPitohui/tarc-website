@@ -11,7 +11,7 @@ textarea  {
   width: 90%;
 }
 .form-buttons {
-  background-color: #E98074;
+  background-color: var(--button-color);
   color: white;
   padding-top: 1em;
   padding-left: 1.5em;

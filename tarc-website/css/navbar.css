@@ -2,10 +2,11 @@ nav {
   border-bottom: 1px solid #8E8DBA;
 }
 nav img {
-  width: 25%;
+  width: 30%;
 }
 .nav-link:hover {
   text-decoration: underline;
+  color: #cccccc;
 }
 .dropdown-item:hover {
   text-decoration: underline;
@@ -17,17 +18,6 @@ nav img {
 .navbar-nav .nav-item a.nav-link {
   color: white;
 }
-
-@media (min-width: 768px)
-  {
-    .navbar-nav > li {
-    display: inline-block;
-    float:none;
-    }
-    .navbar-nav {
-        float:none;
-        margin:0 auto;
-        display: block;
-        text-align: center;
-    }
-  }
+nav {
+  background-color: var(--navbar-color);
+}

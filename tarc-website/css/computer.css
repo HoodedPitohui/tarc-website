@@ -3,8 +3,3 @@
 html  {
   scroll-behavior: smooth;
 }
-.flexbox-wrapper1  {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}

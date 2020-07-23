@@ -13,15 +13,20 @@
 }
 :root {
   --main-bg: #EAE7DC;
-  --bg-accent: #D8C3A5;
+  --section-type1: #f0f0f0;
+  --section-type2: #ebe8e9;
+  --button-color: #c75000;
+  --footer-color:#8c0722;
+  --header-color: ;
   --accent: #8E8D8A;
   --main-accent: #E98074;
   --accent-main-shade: #E85A4F;
+  --navbar-color: #8c0722;
 }
 .flexbox-standard1 {
   text-align: center;
   color: black;
-  width: 18em;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -31,7 +36,7 @@
 .flexbox-standard2 {
   text-align: center;
   color: black;
-  width: 18em;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -44,20 +49,22 @@
 .flexbox-wrapper1  {
   justify-content: center;
   text-align: center;
-  margin-left: 4em;
-  margin-right: 4em;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 .flexbox-wrapper2  {
   justify-content: center;
-  margin-left: 4em;
-  margin-right: 4em;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 .flexbox-2col-left {
-  width: 66%;
+  width: 90%;
   display: block;
 }
 .flexbox-2col-right {
-  width: 33%;
+  width: 90%;
   display: block;
 }
 .flexbox-wrapper1 img {
@@ -67,7 +74,7 @@
   padding-bottom: 60px;
 }*/
 footer  {
-  background-color: #24305E;
+  background-color: var(--footer-color);
 }
 footer  p   {
   color: white;
@@ -105,6 +112,14 @@ footer:before, footer:after {
   line-height: 0;
 }
 footer:after {
+  clear: both;
+}
+section:before, section:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+section:after {
   clear: both;
 }
 .container {

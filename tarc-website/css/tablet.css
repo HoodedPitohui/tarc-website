@@ -1,0 +1,24 @@
+.flexbox-standard1 {
+  width: 28%;
+}
+
+.flexbox-standard2 {
+  width: 28%;
+}
+.flexbox-2col-left {
+  width: 66%;
+}
+.flexbox-2col-right {
+  width: 33%;
+}
+.flexbox-wrapper1  {
+  flex-direction: row;
+  align-items: stretch;
+}
+.flexbox-wrapper2  {
+  flex-direction: row;
+  align-items: stretch;
+}
+section.slideshow {
+  width: 65%;
+}
