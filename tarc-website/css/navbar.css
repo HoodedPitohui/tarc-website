@@ -15,8 +15,16 @@ nav img {
   transition: text-decoration 10s;
   text-decoration: none;
 }
-.navbar-nav .nav-item a.nav-link {
+.navbar-nav .nav-item a.nav-link{
   color: white;
+  margin-left: 0em;
+}
+.navbar-nav {
+  margin-left: 9em;
+}
+.navbar-brand {
+  margin-right: 0rem;
+  margin-left: 4em;
 }
 nav {
   background-color: var(--navbar-color);
