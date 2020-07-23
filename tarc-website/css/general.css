@@ -74,7 +74,9 @@
   padding-bottom: 60px;
 }*/
 footer  {
+  padding-top: 0.5em;
   background-color: var(--footer-color);
+  padding-bottom: 0.5em;
 }
 footer  p   {
   color: white;
@@ -84,7 +86,6 @@ footer p.top  {
   padding-top: 0.5em;
 }
 footer p.bottom {
-  padding-bottom: 0.5em;
 }
 button.swap-button-left, button.swap-button-right {
    height: 8em;
