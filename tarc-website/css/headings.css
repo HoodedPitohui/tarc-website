@@ -22,3 +22,7 @@ h4 {
 h4.rocket-names {
   text-align: center;
 }
+
+.carousel-caption h3 {
+  color: white;
+}

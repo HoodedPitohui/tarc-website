@@ -26,6 +26,9 @@ nav img {
   margin-right: 0rem;
   margin-left: 4em;
 }
-nav {
+nav.navbar {
   background-color: var(--navbar-color);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
