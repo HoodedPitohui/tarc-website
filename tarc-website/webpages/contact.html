@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Own CSS-->
-    <link rel = "stylesheet" href = "css/general.css"/>
-    <link rel = "stylesheet" href = "css/navbar.css"/>
-    <link rel = "stylesheet" href = "css/images.css"/>
-    <link rel = "stylesheet" href = "css/section.css"/>
-    <link rel = "stylesheet" href = "css/headings.css"/>
-    <link rel = "stylesheet" href = "css/forms.css"/>
-    <link rel = "stylesheet" href = "css/flexboxes.css"/>
-    <link rel = "stylesheet" href = "css/footer.css"/>
+    <link rel = "stylesheet" href = "../css/general.css"/>
+    <link rel = "stylesheet" href = "../css/navbar.css"/>
+    <link rel = "stylesheet" href = "../css/images.css"/>
+    <link rel = "stylesheet" href = "../css/section.css"/>
+    <link rel = "stylesheet" href = "../css/headings.css"/>
+    <link rel = "stylesheet" href = "../css/forms.css"/>
+    <link rel = "stylesheet" href = "../css/flexboxes.css"/>
+    <link rel = "stylesheet" href = "../css/footer.css"/>
     <!--Best way to build media queries is set the base case for mobile, then move up-->
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="css/tablet.css"/>
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="css/computer-large.css"/>
@@ -25,42 +25,41 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src = "javascript/forms.js"></script>
-    <script src = "javascript/scrolling.js"></script>
-    <script src = "javascript/navbar.js"></script>
-    <script src = "javascript/navbar2.js"></script>
+    <script src = "../javascript/forms.js"></script>
+    <script src = "../javascript/scrolling.js"></script>
+    <script src = "../javascript/navbar.js"></script>
+    <script src = "../javascript/navbar2.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src = "javascript/geolocation.js"></script>
+    <script src = "../javascript/geolocation.js"></script>
   </head>
   <body>
     <!--Navbar Structure-->
     <!--Links to different parts of the page (#s)-->
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"><img src = "images/logo-final.png"/></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="home.html">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="webpages/projects.html">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="webpages/events.html">Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="webpages/gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="webpages/contact.html">Contact Us</a>
-      </li>
-
-    </ul>
-    </div>
+      <a class="navbar-brand" href="#"><img src = "../images/logo-final.png"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!--Section 1-->
     <section class = "pictures">
@@ -85,7 +84,7 @@
       <h1 class = "title">Our Team</h1>
       <div class = "flexbox-wrapper1">
         <div class = "flexbox-standard1">
-          <img src = "images/people/karthik.jpg" title = "Karthik" alt = "Karthik"/>
+          <img src = "images/karthik.jpg" title = "Karthik" alt = "Karthik"/>
           <h3 class = "sub-name">Karthik Shaji</h3>
           <h4>President</h4>
           <p>Since co-founding his school's tarc team in 10th grade, Karthik Shaji
@@ -96,7 +95,7 @@
           advanced fluid dynamics.</p>
         </div>
         <div class = "flexbox-standard1">
-          <img src = "images/people/josh.jpg" title = "Joshua" alt = "Joshua"/>
+          <img src = "images/josh.jpg" title = "Joshua" alt = "Joshua"/>
           <h3 class = "sub-name">Joshua Wentzien</h3>
           <h4>Head of Finance</h4>
           <p>Joshua Wentzien is a rising high school senior who serves as the Head of Finance
@@ -105,7 +104,7 @@
           Club as its Vice President.</p>
         </div>
         <div class = "flexbox-standard1">
-          <img src = "images/people/andrey.jpg" title = "Andrey" alt = "Andrey"/>
+          <img src = "images/andrey.jpg" title = "Andrey" alt = "Andrey"/>
           <h3 class = "sub-name">Andrey Piterkin</h3>
           <h4>Head of Technology</h4>
           <p>Andrey Piterkin is a rising high school senior at the International Community school
@@ -118,7 +117,7 @@
       <br/>
       <div class = "flexbox-wrapper1">
         <div class = "flexbox-standard1">
-          <img src = "images/people/pranav.jpg" title = "Pranav" alt = "Pranav"/>
+          <img src = "images/pranav.jpg" title = "Pranav" alt = "Pranav"/>
           <h3 class = "sub-name">Pranav Gopalkrishnan</h3>
           <h4>Head of Records</h4>
           <p>Pranav Gopalkrishnan is a rising high school junior at the International Community School, serving as the
@@ -126,7 +125,7 @@
           team. Outside of school, you can find him solving chess puzzles, studying for FBLA tests, or studying for AP classes.</p>
         </div>
         <div class = "flexbox-standard1">
-          <img src = "images/people/marko.jpg" alt = "Marko" title = "Marko"/>
+          <img src = "images/marko.jpg" alt = "Marko" title = "Marko"/>
           <h3 class = "sub-name">Marko Morrison </h3>
           <h4>Head of Outreach</h4>
           <p>Marko Morrison is a rising high school senior at the International Community School, serving as the Head of Outreach
@@ -142,10 +141,10 @@
       <!--Team picture + rocket-->
       <h3 class = "subtitle">2018-2019</h3>
       <div class = "flexbox-type2">
-        <img class = "centralized" src = "images/2018-2019/rocket-2018-2019.PNG" title = "2018-2019 Rocket" alt = "2018-2019 Rocket"/>
+        <img class = "centralized" src = "images/rocket-2018-2019.PNG" title = "2018-2019 Rocket" alt = "2018-2019 Rocket"/>
       </div>
       <h1 class = "title">Rocket Camp</h1>
-      <a href = "files/rocketeers-week.pdf" target = "_blank"><img class = "flyer" src = "images/events/rocket-week-flyer.png" title = "Future Rocketeers Flyer" alt = "Future Rocketeers Flyer"/></a>
+      <a href = "files/rocketeers-week.pdf" target = "_blank"><img class = "flyer" src = "images/rocketeers-week.png" title = "Future Rocketeers Flyer" alt = "Future Rocketeers Flyer"/></a>
       <h1 class = "title">Nationals 2019</h1>
       <section class = "slideshow">
         <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel" style=" margin: 0 auto">
@@ -162,55 +161,55 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="images/2018-2019/og-group-pic.jfif" alt="Group 2018-2019" title = "Group 2018-2019">
+              <img class="d-block w-100" src="images/og-group-pic.jfif" alt="Group 2018-2019" title = "Group 2018-2019">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Group 2018-2019</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/first-ever-rocket.jfif" alt="First Rocket" title = "First Rocket">
+              <img class="d-block w-100" src="images/first-ever-rocket.jfif" alt="First Rocket" title = "First Rocket">
               <div class="carousel-caption d-none d-md-block">
                 <h3>First Model Rocket We Made</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/smoke-journey.jfif" alt="Nice Evening Day" title = "Nice Evening Day">
+              <img class="d-block w-100" src="images/smoke-journey.jfif" alt="Nice Evening Day" title = "Nice Evening Day">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Nice Evening Day</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/old-waiting.jpg" alt="Preparing to Launch" title = "Preparing to Launch">
+              <img class="d-block w-100" src="images/old-waiting.jpg" alt="Preparing to Launch" title = "Preparing to Launch">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Preparing to Launch</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/mud-day.jpg" alt="Snowy Rocket Day" title = "Snowy Rocket Day">
+              <img class="d-block w-100" src="images/mud-day.jpg" alt="Snowy Rocket Day" title = "Snowy Rocket Day">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Snowy Rocket Launch Day</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/rahan-with-rocket.jpg" alt="Rahan with the Rocket" title = "Rahan with the Rocket">
+              <img class="d-block w-100" src="images/rahan-with-rocket.jpg" alt="Rahan with the Rocket" title = "Rahan with the Rocket">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Rahan Holding the Rocket</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/josh-action.jpg" alt="Josh Working on the Rocket" title = "Josh Working on the Rocket">
+              <img class="d-block w-100" src="images/josh-action.jpg" alt="Josh Working on the Rocket" title = "Josh Working on the Rocket">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Josh Working on the Rocket</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/fun-waiting.jpg" alt="Right Before Launch" title = "Right Before Launch">
+              <img class="d-block w-100" src="images/fun-waiting.jpg" alt="Right Before Launch" title = "Right Before Launch">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Right Before Launch</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/2018-2019/awarads.png" alt="Presentation Awards" title = "Presentation Awards">
+              <img class="d-block w-100" src="images/awarads.png" alt="Presentation Awards" title = "Presentation Awards">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Presentation Awards</h3>
               </div>
@@ -259,7 +258,7 @@
       <h1 class = "title">Alumni</h1>
       <div class = "flexbox-wrapper1">
         <div class = "flexbox-standard1">
-          <img src = "images/people/rahan.png"/>
+          <img src = "images/rahan.png"/>
           <h3 class = "subtitle">Rahan Shankar</h3>
           <h4>Original Team Member and PR Officer</h4>
           <p>Rahan moved to India in Summer 2019 to pursue Medicine. He served as an integral

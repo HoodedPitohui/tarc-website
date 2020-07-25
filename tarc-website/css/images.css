@@ -49,3 +49,8 @@ img.flyer {
 .carousel-item img {
   opacity: 0.9;
 }
+.img-fluid:hover {
+  transform: scale(1.5);
+  z-index: 1000;
+  position: relative;
+}
