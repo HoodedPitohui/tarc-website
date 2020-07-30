@@ -4,9 +4,12 @@ nav {
 nav img {
   width: 30%;
 }
-.nav-link:hover {
+.navbar-nav .nav-item .nav-link:hover {
   text-decoration: underline;
-  color: #cccccc;
+  color: #b0b0b0;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: #b0b0b0;
 }
 .dropdown-item:hover {
   text-decoration: underline;
