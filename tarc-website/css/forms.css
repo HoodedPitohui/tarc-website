@@ -1,9 +1,17 @@
+input.standard, input.standard2 {
+  border-bottom: 0.2em solid black;
+}
 input.standard {
   width: 90%;
-  border-bottom: 0.2em solid black;
+}
+input.standard2 {
+  width: 60%;
+  text-align: center;
 }
 form  {
   display: block;
+}
+#contact-form {
   margin-left: 2em;
 }
 textarea  {
@@ -21,4 +29,7 @@ textarea  {
 .form-buttons:hover {
    opacity: 0.8;
    color: black;
+}
+label {
+  font-size: 24px;
 }

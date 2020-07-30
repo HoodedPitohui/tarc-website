@@ -31,6 +31,7 @@
     <script src = "../javascript/navbar2.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src = "../javascript/geolocation.js"></script>
+    <script src = "../javascript/subscribe.js"></script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -72,7 +73,47 @@
     </nav>
     <!--Section 1-->
     <section class = "mission1">
-      <h1>This page is currently under development</h1>
+      <h1>Interested in getting in contact?</h1>
+      <h3>Instagram: <a href = "https://www.instagram.com/phoenix.rocketry/" target = "_blank">phoenix.rocketry</a></h3>
+      <h3>Email: phoenixrocketryorg@gmail.com</h3>
+    </section>
+    <section class = "cont" id = "contact-form2">
+      <h1 class = "title">Directly Contact Us</h1>
+      <br/>
+      <!--Form-->
+      <form id = "contact-form" action="/contact" method = "post" role="form">
+        <div class = "data">
+          <label for = "fname">First name:</label><br/>
+          <input class = "standard" name="fname" type = "text" id = "fname"><br/>
+          <label for = "lname">Last name:</label><br/>
+          <input class = "standard" name="lname" type = "text" id = "lname"><br/>
+          <label for= "email">Email:</label><br/>
+          <input class = "standard" name="email" type = "text" id = "email"><br/>
+          <label for= "subject">Subject:</label><br/>
+          <input class = "standard" name="subject" type = "text" id = "subject"><br/>
+          <label for = "comments">Comments:</label><br/>
+          <textarea id = "comments" name="message" form = "contact-form" rows="8">
+          </textarea>
+          <br/>
+        </div>
+        <div class = "button">
+          <input class = "form-buttons" type="submit" id = "subscribe" value = "Submit"/>
+          <input class = "form-buttons" type = "button" id = "reset" value = "Reset"/>
+        </div>
+      </form>
+    </section>
+    <section class = "mission1">
+      <h1>Join Our Email List</h1>
+      <form id = "subcribe-form" action="/contact" method = "post" role="form">
+        <div class = "data">
+          <label for= "email">Email:</label><br/>
+          <input class = "standard2" name="email" type = "text" id = "given-email"><br/>
+          <br/>
+        </div>
+        <div class = "button">
+          <input class = "form-buttons" type="submit" id = "subscribe-button" value = "Subscribe"/>
+        </div>
+      </form>
     </section>
     <!--Footer-->
     <footer>
