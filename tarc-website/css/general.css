@@ -67,6 +67,9 @@
   width: 90%;
   display: block;
 }
+.flexbox-3col {
+  width: 90%;
+}
 .flexbox-wrapper1 img {
    max-width: 100%;
 }
@@ -136,4 +139,7 @@ section:after {
 }
 html {
   scroll-behavior: smooth;
+}
+img.sponsor1 {
+  width: 20%;
 }
