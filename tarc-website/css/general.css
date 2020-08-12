@@ -59,6 +59,12 @@
   align-items: center;
   display: flex;
 }
+.flexbox-type2 {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
 .flexbox-2col-left {
   width: 90%;
   display: block;
@@ -72,6 +78,22 @@
 }
 .flexbox-wrapper1 img {
    max-width: 100%;
+}
+.flexbox-type2 p{
+  padding-top: 1em;
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.flexbox-2eqcol {
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.flexbox-2eqcol img {
+  max-width: 100%;
 }
 /*div.section2-images p {
   padding-bottom: 60px;
@@ -142,4 +164,11 @@ html {
 }
 img.sponsor1 {
   width: 20%;
+}
+p.centralized {
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
+  padding-top: 1em;
+  padding-top: 1em;
 }

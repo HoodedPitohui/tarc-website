@@ -25,3 +25,11 @@ section.slideshow {
 .flexbox-3col {
   width: 30%;
 }
+
+.flexbox-2eqcol {
+  width: 45%;
+  flex-direction: row;
+}
+.flexbox-2eqcol img {
+  max-width: 100%;
+}
