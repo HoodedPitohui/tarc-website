@@ -11,6 +11,10 @@
   background: transparent;
   font-family: 'Poppins', sans-serif;
 }
+
+p {
+  font-family: "Lato", sans-serif;
+}
 :root {
   --main-bg: #EAE7DC;
   --section-type1: #f0f0f0;

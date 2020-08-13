@@ -60,3 +60,6 @@ img.flyer {
   z-index: 1000;
   position: relative;
 }
+.flexbox-standard1 img {
+  padding-bottom: 0.5em;
+}
