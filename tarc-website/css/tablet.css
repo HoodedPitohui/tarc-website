@@ -1,5 +1,5 @@
 .flexbox-standard1 {
-  width: 28%;
+  width: 40%;
 }
 
 .flexbox-standard2 {
@@ -23,11 +23,11 @@ section.slideshow {
   width: 80%;
 }
 .flexbox-3col {
-  width: 30%;
+  width: 40%;
 }
 
 .flexbox-2eqcol {
-  width: 45%;
+  width: 30%;
   flex-direction: row;
 }
 .flexbox-2eqcol img {
